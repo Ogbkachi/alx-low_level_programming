@@ -1,11 +1,9 @@
 #include "main.h"
 
 /**
- * main - prints putchar
- *
- * Description: prints_putchar
- *
- * Return: = (success)
+ * main - print _putchar
+ * written by ogb
+ * Return: 0
  */
 
 int main(void)
@@ -19,6 +17,6 @@ int main(void)
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
-
 	return (0);
 }
+
