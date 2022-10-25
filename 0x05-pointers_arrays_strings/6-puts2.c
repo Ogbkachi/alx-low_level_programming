@@ -6,7 +6,7 @@
  * Return: no return
  */
 
-void puts(char *str)
+void puts2(char *str)
 {
 	int count = 0;
 
@@ -15,7 +15,7 @@ void puts(char *str)
 		if (str[count] == '\0')
 		{
 			_putchar('\n');
-			break;
+			bssreak;
 		}
 		if (count % 2 == 0)
 			_putchar(str[count]);
